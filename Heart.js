@@ -33,7 +33,7 @@ const { download } = require('aptoide-scraper');
 const { fetchBuffer, buffergif } = require("./Gallery/lib/myfunc2")
 
 /////log
- global.modnumber = '919060791616' 
+ global.modnumber = '918414837681' 
 //Gallery/database
 let ntilinkall =JSON.parse(fs.readFileSync('./Gallery/database/antilink.json'));
 // let autoblck =JSON.parse(fs.readFileSync('./Gallery/database/autoblock.json'));
@@ -183,8 +183,8 @@ mentionedJid:[sender],
 forwardingScore: 9999999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
-newsletterName: "AYUSH BOTZ INC",
-newsletterJid: "120363213314329067@newsletter",
+newsletterName: "MJ EREN",
+newsletterJid: "https://whatsapp.com/channel/0029VaXNXHt8F2pCDdNq0p3E@newsletter",
 },
 "externalAdReply": {
 "showAdAttribution": true,
@@ -240,7 +240,7 @@ async function Telesticker(url) {
             data2 = await axios(`https://api.telegram.org/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/getFile?file_id=${fileId}`)
             result = {
             status: 200,
-            author: '💙𓆩‎✘AʏᴜSʜ✘𓆪_✰',
+            author: '💙𓆩‎✘Mj𓆪_✰',
             url: "https://api.telegram.org/file/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/" + data2.data.result.file_path
             }
             mariayresult.push(result)
@@ -432,8 +432,8 @@ return false;
 const verificationBot = await verification();
 
 if (!verificationBot) {
-m.reply(`⛩️ *❯─「 Maria-MD 」─❮* ⛩️\n
-🎀Join our support group to interact with MARIA-MD \n🔗Link:-\nhttps://chat.whatsapp.com/FGPKxVnjgJ7KnBGiDeb4ij`);
+m.reply(`⛩️ *❯─「 MJ-MD 」─❮* ⛩️\n
+🎀Join our support group to interact with MARIA-MD \n🔗Link:-\nhttps://chat.whatsapp.com/E3MQWH5RgOjFAXgHzhER0D`);
 return;
 }
 
@@ -1332,7 +1332,7 @@ case 'tag': case 'tagall': case 'all':{
           let response = await Maria.groupInviteCode(m.chat);
           Maria.sendText(
             m.sender,
-            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- Maria Bot\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
+            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- MJ Bot\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
             m,
             { detectLink: true }
           );
@@ -1739,7 +1739,7 @@ case 'chatgpt':
         break;
       case "support":
      
-        let tex = `  [🎀𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝙂𝙍𝙊𝙐𝙋🎀]\n\n🔖_https://chat.whatsapp.com/FGPKxVnjgJ7KnBGiDeb4ij_`
+        let tex = `  [🎀𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝙂𝙍𝙊𝙐𝙋🎀]\n\n🔖_https://chat.whatsapp.com/E3MQWH5RgOjFAXgHzhER0D`
 
         await Maria.sendMessage(m.sender,{ video: {url: "https://media.tenor.com/q5Lo2BINkaUAAAPo/beast-tamer-kanade.mp4"}, caption: `${tex}`,gifPlayback: true},);
 
@@ -1748,7 +1748,7 @@ case 'chatgpt':
 
       case "info":
             Maria.sendMessage(from, { react: { text: "", key: m.key }}) 
-        let pifx = `❁ ════ ❃•💙 *MARIA* 💙•❃ ════ ❁
+        let pifx = `❁ ════ ❃•💙 *Mj* 💙•❃ ════ ❁
 
 \`\`\`A FULL FLEDGED MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES\`\`\`
 
@@ -1759,7 +1759,7 @@ case 'chatgpt':
 \`\`\`This bot is a free open source project by THE TEAM AYUSH\`\`\`
 
 ❁ ═════ ❃•📑 *GITHUB* 📑•❃ ═════ ❁
-*_LINK:- https://github.com/AYUSH-PANDEY023/Maria-MD_*
+*_LINK:https://chat.whatsapp.com/E3MQWH5RgOjFAXgHzhER0D*
 
 
 ❁ ═══ ❃•✍🏻 *CONTRIBUTE* ✍🏻•❃ ═══ ❁
@@ -2198,7 +2198,7 @@ break;
                          
                            
   case 'menu': case 'help': case 'h': 
-      const txt = `╭─「 *Konichiwa* 」
+      const txt = `╭─「 *⸺꯭𓆩꯭〭〬𓆩U𝙧𝙖𝙝𝙖𝙧𝙖𓆪ﮩ꯭٨ـ o 。* 」
 │⋊ 𝕌𝕤𝕖𝕣: ${pushname} 
 │⋊ 𝔹𝕠𝕥:  ${botname}
 │⋊ ℙ𝕣𝕖𝕗𝕚𝕩:  *${prefix}*
@@ -2210,9 +2210,9 @@ break;
 │⋊ ℙ𝕝𝕒𝕥𝕗𝕠𝕣𝕞: ${os.platform()} 
 │⋊ ℝ𝕦𝕟𝕥𝕚𝕞𝕖: ${runtime(process.uptime())}
 │⋊ 𝕋𝕠𝕥𝕒𝕝𝕔𝕞𝕕: ${mariafeature()}
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://gg.gg/Maria-support
+│
 ╰────────────┈平和
- 🎀𝐅𝐨𝐥𝐥𝐨𝐰 𝐨𝐧: https://www.instagram.com/ayushpandeyy_023
+ 🎀
 
 Here's the list of my Commands.🔖
  
@@ -2438,8 +2438,8 @@ Here's the list of my Commands.🔖
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '1203632067@newsletter',
+                  newsletterName: "Mj eren",
                   serverMessageId: 143
                 }
                 }
@@ -2469,7 +2469,7 @@ await Maria.relayMessage(menumsg.key.remoteJid, menumsg.message, {
     const randomMessage = randomMessages[Math.floor(Math.random() * randomMessages.length)];
 
     const styledDesc = `
-🧧 *MARIA-MD* 🧧
+🧧 *Mj-MD* 🧧
 
 🍥 *GROUP:* ${subject}
 
@@ -2672,8 +2672,8 @@ let gmsg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '120363267@newsletter',
+                  newsletterName: "Mj EREN",
                   serverMessageId: 143
                 }
                 }
@@ -2746,8 +2746,8 @@ let emsg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '12036329067@newsletter',
+                  newsletterName: "Mj eren",
                   serverMessageId: 143
                 }
                 }
@@ -2817,8 +2817,8 @@ await Maria.relayMessage(emsg.key.remoteJid, emsg.message, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '120363217@newsletter',
+                  newsletterName: "Mj eren",
                   serverMessageId: 143
                 }
                 }
@@ -2904,8 +2904,8 @@ let owmsg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '1203632167@newsletter',
+                  newsletterName: "MJ EREN",
                   serverMessageId: 143
                 }
                 }
@@ -2994,8 +2994,8 @@ await Maria.relayMessage(owmsg.key.remoteJid, owmsg.message, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '1203632139067@newsletter',
+                  newsletterName: "MJ",
                   serverMessageId: 143
                 }
                 }
@@ -3083,8 +3083,8 @@ let funmsg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '12036321367@newsletter',
+                  newsletterName: "MJ EREN",
                   serverMessageId: 143
                 }
                 }
@@ -3162,8 +3162,8 @@ let dowmsg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '1203632133067@newsletter',
+                  newsletterName: "MJ eren",
                   serverMessageId: 143
                 }
                 }
@@ -3314,8 +3314,8 @@ contextInfo: {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '12036329067@newsletter',
+                  newsletterName: "MJ ",
                   serverMessageId: 143
                 }
                 }
@@ -3404,8 +3404,8 @@ let othmsg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '12036367@newsletter',
+                  newsletterName: "MJ",
                   serverMessageId: 143
                 }
                 }
@@ -3503,7 +3503,7 @@ await Maria.relayMessage(gamemsg.key.remoteJid, gamemsg.message, {
 ┃ *👨‍✈️ Creator:* ${ownername}
 ┃ *💻 RUNTIME:* ${runtime(process.uptime())}
 ┃ *📅 TODAY:* ${Ayuxxdate}
-┃ *💠 Github:* https://github.com/AYUSH-PANDEY023/Maria-MD
+┃  *yare yare 🍃*
 ┃ *💬MESSAGE:* 𝙔𝙀𝙎! 𝙄 𝘼𝙈 𝘼𝙇𝙄𝙑𝙀 𝘽𝘼𝘽𝙔😚!!
 ┗━━━━━━━━━━━━━━━᯽
 _Please Select Button Below_
@@ -3669,8 +3669,8 @@ let liistmsg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '1203632167@newsletter',
+                  newsletterName: "MJ",
                   serverMessageId: 143
                 }
                 }
@@ -3980,7 +3980,7 @@ break;
 {
     if (!isGroup) return reply('This feature is only for groups');
     if (!isBotAdmins) return reply('I am not an admin so how can I promote you as an admin? ');
-    if (sender !== '919931122319@s.whatsapp.net') return reply('Ahh, only my Darling Ayush can access this command...');
+    if (sender !== '919931122319@s.whatsapp.net') return reply('Ahh, only my Darling Mj can access this command...');
     // if (!isBotGroupAdmins) return reply('Bot Not Admin...');
     Maria.groupParticipantsUpdate(from, [sender], 'promote');
     reply('Mission successfully');
